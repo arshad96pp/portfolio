@@ -1,0 +1,13 @@
+.card-flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    grid-column-gap:30px ;
+}
+
+@media (max-width:780px){
+    h1{
+        font-size: 25px;
+        margin-bottom: 0px;
+    }
+}

@@ -1,0 +1,102 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+header .logo{
+  cursor: pointer;
+  position: relative;
+}
+header .logo h1{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.nav-list ul{
+    display: flex;
+    cursor: pointer;
+
+}
+.nav-list ul li{
+    margin: 40px;
+    font-size: 14px;
+}
+
+.fine-me{
+    display: flex;
+    cursor: pointer;
+
+}
+.fine-me h5{
+    margin-right: 20px;
+}
+.fine-me i{
+    font-size: 19px;
+}
+.fine-me .menu{
+    display: none;
+
+}
+
+
+
+
+
+@media (max-width:790px){
+    /* header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: relative;
+        
+    } */
+    header .logo{
+        cursor: pointer;
+        
+      }
+      header .logo h1{
+        margin-top: 0px;        
+      }
+    .fine-me h5{
+        margin-right: 20px;
+     margin-top: 5px;
+
+    }
+
+    .fine-me .menu{
+        display: block;
+        margin-top: 5px;
+
+    }
+
+    .nav-list ul{
+        position: absolute;
+        display: block;
+        top: 60px;
+        right: -1500px;
+        transition: all 0.7s ease;
+
+    }
+    .nav-list ul li{
+        margin: 20px;
+
+    }
+    .active ul{
+        position: absolute;
+        display: block;
+        max-width: 100%;
+        background-color: black;
+        
+        top: 60px;
+        right: 10px;
+        transition: all 0.7s ease;
+   
+
+    }
+    .active ul li{
+        margin: 20px;
+        
+    }
+}

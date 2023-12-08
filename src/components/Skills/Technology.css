@@ -1,0 +1,123 @@
+.flex-skill{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.flex-skill h2{
+    font-size: 20px;
+}
+.range{
+    width: 800px;
+    height: 16px;
+    background: rgb(131,103,213);
+    background: linear-gradient(90deg, rgba(131,103,213,1) 8%, rgba(35,161,201,1) 100%);
+    /* filter: blur(1); */
+
+    border-radius: 8px;
+}
+.rangeactive{
+    width: 550px;
+    background: rgb(131,103,213);
+    background: linear-gradient(90deg, rgba(131,103,213,1) 8%, rgba(35,161,201,1) 100%);
+    height: 16px;
+    border-radius: 8px;
+
+
+}
+
+.rang-bg{
+    height: 16px;
+    width: 800px;
+    margin-bottom: 70px;
+
+}
+@media only screen and (max-width:768px) {
+    .range{
+        width: 400px;
+        height: 10px;
+        background: rgb(131,103,213);
+        background: linear-gradient(90deg, rgba(131,103,213,1) 8%, rgba(35,161,201,1) 100%);
+        border-radius: 8px;
+    }
+
+    .rangeactive{
+        width: 350px;
+        background: rgb(131,103,213);
+        background: linear-gradient(90deg, rgba(131,103,213,1) 8%, rgba(35,161,201,1) 100%);
+        height: 10px;
+        border-radius: 8px;
+    
+    
+    }
+    .rang-bg{
+        height: 10px;
+        width: 400px;
+        margin-bottom: 70px;
+
+    }
+    h5{
+        font-size: 14px;
+    }
+    .flex-skill h2{
+        font-size: 17px;
+         }
+     
+}
+
+@media only screen and (max-width:472px) {
+    .range{
+        width: 300px;
+        height: 10px;
+        background: rgb(131,103,213);
+        background: linear-gradient(90deg, rgba(131,103,213,1) 8%, rgba(35,161,201,1) 100%);
+        border-radius: 8px;
+    }
+    .rangeactive{
+        width: 250px;
+        background: rgb(131,103,213);
+        background: linear-gradient(90deg, rgba(131,103,213,1) 8%, rgba(35,161,201,1) 100%);
+        height: 10px;
+        border-radius: 8px;
+    
+    
+    }
+    .rang-bg{
+        height: 10px;
+        width: 300px;
+        margin-bottom: 70px;
+
+    }
+    .flex-skill h2{
+   font-size: 13px;
+    }
+
+    h5{
+        font-size: 10px;
+    }
+}
+
+@media only screen and (max-width:379px) {
+    .range{
+        width: 230px;
+        height: 10px;
+        background: rgb(131,103,213);
+        background: linear-gradient(90deg, rgba(131,103,213,1) 8%, rgba(35,161,201,1) 100%);
+        border-radius: 8px;
+    }
+    .rangeactive{
+        width: 200px;
+        background: rgb(131,103,213);
+        background: linear-gradient(90deg, rgba(131,103,213,1) 8%, rgba(35,161,201,1) 100%);
+        height: 10px;
+        border-radius: 8px;
+    
+    
+    }
+    .rang-bg{
+        height: 10px;
+        width: 230px;
+        margin-bottom: 70px;
+
+    }
+}
